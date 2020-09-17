@@ -1,0 +1,107 @@
+.cv {
+    display: flex;
+    width: 850px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+
+aside {
+    width: 270px;
+    margin-top: 20px;
+    background-color: #eec0c0;
+}
+
+aside section {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.short-card {
+    padding-bottom: 40px;
+    line-height: 2.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.short-card * {
+    margin: 5px auto;
+}
+
+.photo {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.photo img {
+    margin-top: -15px;
+    width: 100%;
+    height: auto;
+}
+
+#name {
+    font-size: 2.2rem;
+}
+
+#name strong {
+    font-weight: 700;
+}
+
+#title {
+    font-size: .75rem;
+    font-weight: 300;
+}
+
+aside > section > h3 {
+    width: 190px;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #fff;
+    background-color: #48474c;
+    text-align: center;
+}
+
+aside > section > ul {
+    margin: 20px 40px;
+}
+
+aside > section > ul > li {
+    margin-top: 20px;
+    display: flex;
+}
+
+aside > section > ul > li * {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    width: 580px;
+}
+
+main section {
+    margin: 30px 55px 0 60px;
+}
+
+.section-header {
+    display: flex;
+    padding: 10px 0 20px 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-header > h3 {
+    width: 100%;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+
+}
